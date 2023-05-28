@@ -20,7 +20,9 @@ function App() {
 
           <div className="horizontal">
           <p>
-            <b>Education</b><br />
+            <div className="centered-text">
+              <b>Education</b><br />
+            </div>
             <ul>
               <li>Senior at Missouri S&T</li>
               <li>Majoring in Computer Science</li>
@@ -29,7 +31,9 @@ function App() {
           </p>
 
           <p>
-          <b>Experience</b><br />
+            <div className="centered-text">
+              <b>Experience</b><br />
+            </div>
             <ul>
               <li>C++</li>
               <li>Python</li>

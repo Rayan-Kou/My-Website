@@ -91,3 +91,7 @@ img {
 .large-text {
   font-size: 50px;
 }
+
+.centered-text {
+  text-align: center;
+}
