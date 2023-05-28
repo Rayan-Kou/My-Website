@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background: linear-gradient(to bottom, #cdeedb, #a6c9e7);
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 .App-link {
-  color: #0029cd;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,19 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.small-image {
-  max-width: 20%;
-  max-height: 20vh;
-}
-
-.rounded-image {
-  border-radius: 10%;
-}
-
-.headline-text {
-  font-size: calc(20px + 2vmin);
-  font-weight: bold;
-  font-family: "Tahoma", sans-serif;
 }
