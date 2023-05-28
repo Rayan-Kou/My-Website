@@ -4,11 +4,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="headline-text">
-          Rayan Koutchoukali
-        </p>
-      
         <img src="portrait.jpg" alt="Portrait" className="small-image rounded-image" />
+
+        <p>
+          <b>Hi, I'm Rayan Koutchoukali.</b><br />
+          This is my website that I created with React. If you want to look through the code, here is the <a href="https://github.com/TheChunkyPotato/My-Website">GitHub repo</a>.
+        </p>
 
         <p>
           <a

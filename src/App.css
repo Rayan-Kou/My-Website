@@ -17,11 +17,14 @@
   background: linear-gradient(to bottom, #cdeedb, #a6c9e7);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  text-align: left;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 30px;
   color: black;
+  padding: 20px;
 }
 
 .App-link {
@@ -38,8 +41,8 @@
 }
 
 .small-image {
-  max-width: 20%;
-  max-height: 20vh;
+  max-width: 273px;
+  max-height: 298px;
 }
 
 .rounded-image {
@@ -47,7 +50,22 @@
 }
 
 .headline-text {
-  font-size: calc(20px + 2vmin);
+  font-size: 50px;
   font-weight: bold;
   font-family: "Tahoma", sans-serif;
+}
+
+.bold-text {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Tahoma", sans-serif;
+}
+
+p {
+  max-width: 1000px;
+  padding: 10px;
+}
+
+img {
+  padding: 10px;
 }
