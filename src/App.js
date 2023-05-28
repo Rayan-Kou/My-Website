@@ -18,9 +18,14 @@ function App() {
             I'm seeking an internship or a job in roles related to software programming and IT.
           </p>
 
+          <div className="horizontal">
           <p>
             <b>Education</b><br />
-            I'm currently a senior at Missouri University of Science and Technology majoring in computer science. I graduate in December 2023.
+            <ul>
+              <li>Senior at Missouri S&T</li>
+              <li>Majoring in Computer Science</li>
+              <li>Graduating in December 2023</li>
+            </ul>
           </p>
 
           <p>
@@ -38,6 +43,7 @@ function App() {
               <li>Rust</li>
             </ul>
           </p>
+          </div>
         </div>
       </header>
     </div>
