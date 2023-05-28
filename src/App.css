@@ -17,20 +17,22 @@
   background: linear-gradient(to bottom, #cdeedb, #a6c9e7);
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   text-align: left;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 30px;
   color: black;
   padding: 20px;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .horizontal {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -38,8 +40,8 @@
 .vertical {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -84,4 +86,8 @@ p {
 
 img {
   padding: 10px;
+}
+
+.large-text {
+  font-size: 50px;
 }

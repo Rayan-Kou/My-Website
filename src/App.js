@@ -14,15 +14,29 @@ function App() {
         </div>
 
         <div className="vertical">
+          <p className="large-text">
+            I'm seeking an internship or a job in roles related to software programming and IT.
+          </p>
+
           <p>
-            <a
-              className="App-link"
-              href="https://www.linkedin.com/in/rayan-koutchoukali/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
+            <b>Education</b><br />
+            I'm currently a senior at Missouri University of Science and Technology majoring in computer science. I graduate in December 2023.
+          </p>
+
+          <p>
+          <b>Experience</b><br />
+            <ul>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>C#</li>
+              <li>Rust</li>
+            </ul>
           </p>
         </div>
       </header>
