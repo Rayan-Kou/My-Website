@@ -53,7 +53,7 @@ function App() {
           <div className="content-item">
             <img src="code.png" style={{ maxWidth: '150px', maxHeight: '150px' }}/>
           </div>
-          <div className="content-item" style={{ marginRight: '125px' }}>
+          <div className="content-item" style={{ marginRight: '105px' }}>
             <ul>
               <b>
                 <li>C++</li>
