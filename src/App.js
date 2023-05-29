@@ -19,7 +19,13 @@ function App() {
             Home
         </div>
         <div className={`menu-item ${fadeIn ? 'fade-in' : ''}`}>
-            Contact
+            Email & Phone
+        </div>
+        <div className={`menu-item ${fadeIn ? 'fade-in' : ''}`}>
+            LinkedIn
+        </div>
+        <div className={`menu-item ${fadeIn ? 'fade-in' : ''}`}>
+            Resume
         </div>
       </header>
       <div className="content">
