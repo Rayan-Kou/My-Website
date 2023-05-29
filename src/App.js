@@ -55,20 +55,24 @@ function App() {
           </div>
           <div className="content-item" style={{ marginRight: '125px' }}>
             <ul>
-              <li>C++</li>
-              <li>Python</li>
-              <li>Java</li>
-              <li>HTML</li>
-              <li>CSS</li>
+              <b>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </b>
             </ul>
           </div>
           <div className="content-item">
             <ul>
-              <li>JavaScript</li>
-              <li>PHP</li>
-              <li>SQL</li>
-              <li>C#</li>
-              <li>Rust</li>
+              <b>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>C#</li>
+                <li>Rust</li>
+              </b>
             </ul>
           </div>
         </div>
