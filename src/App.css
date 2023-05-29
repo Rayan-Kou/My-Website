@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    min-height: 5vh;
+    min-height: 65px;
   }
 
 .menu-item {
@@ -18,7 +18,7 @@
 }
 
 .content {
-  min-height: 95vh;
+  min-height: calc(100vh - 65px);
   background: linear-gradient(to bottom, #cdeedb, #a6c9e7);
   font-size: 30px;
   font-family: Helvetica;
