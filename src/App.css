@@ -62,3 +62,7 @@
 a {
   color: black;
 }
+
+ul {
+  list-style-type: circle; /* Specify the type of bullet points */
+}

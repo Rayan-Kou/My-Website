@@ -37,6 +37,49 @@ function App() {
             I'm currently seeking an internship or full-time position in roles related to software programming and IT.
           </div>
         </div>
+        <div className={`content-section ${animateContent ? 'animate-content' : ''}`}>
+          <div className="content-item">
+            <img src="education.png" style={{ maxWidth: '150px', maxHeight: '150px' }}/>
+          </div>
+          <div className="content-item">
+            <ul>
+              <li>Senior at <b>Missouri S&T</b></li>
+              <li>Majoring in <b>Computer Science</b></li>
+              <li>Graduating in <b>December 2023</b></li>
+            </ul>
+          </div>
+        </div>
+        <div className={`content-section ${animateContent ? 'animate-content' : ''}`}>
+          <div className="content-item">
+            <img src="code.png" style={{ maxWidth: '150px', maxHeight: '150px' }}/>
+          </div>
+          <div className="content-item" style={{ marginRight: '125px' }}>
+            <ul>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div className="content-item">
+            <ul>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>C#</li>
+              <li>Rust</li>
+            </ul>
+          </div>
+        </div>
+        <div className={`content-section ${animateContent ? 'animate-content' : ''}`}>
+          <div className="content-item">
+            <a href="https://www.flaticon.com/free-icons/education" title="education icons" style={{ fontSize: '10px' }}>Education icons created by Freepik - Flaticon</a>
+          </div>
+          <div className="content-item">
+            <a href="https://www.flaticon.com/free-icons/development" title="development icons" style={{ fontSize: '10px' }}>Development icons created by Freepik - Flaticon</a>
+          </div>
+        </div>
       </div>
     </div>
   );
