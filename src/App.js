@@ -33,8 +33,8 @@ function App() {
           </div>
         </div>
         <div className={`content-section ${animateContent ? 'animate-content' : ''}`}>
-          <div className="content-item" style={{ fontSize: '50px' }}>
-            I'm seeking an internship or a job in roles related to software programming and IT.
+          <div className="content-item" style={{ fontSize: '50px', maxWidth: '800px', textAlign: 'justify' }}>
+            I'm currently seeking an internship or full-time position in roles related to software programming and IT.
           </div>
         </div>
       </div>
